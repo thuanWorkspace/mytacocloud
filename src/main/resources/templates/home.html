@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns="http://w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>thuan taco cloud</title>
+</head>
+<body>
+	<h1>welcome to...</h1>
+	<img  style="max-width: 450px; max-height: 300px"
+	 th:src="@{/images/TacoCloud.png}"/>
+	 <a th:href="@{/design}">design Taco</a>
+	 <form method="GET" th:action="@{/login}">
+<input type="submit" value="login"/>
+</form>
+	 
+</body>
+</html>
